@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Rubik+Doodle+Shadow&display=swap');
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: lightblue;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px 10px 10px 10px;
+            margin: 10px;
+            border: 2px solid lightgreen;
+            border-radius: 10px;
+        }
+        header > h1 {
+            font-family: 'Rubik Doodle Shadow', system-ui;
+            color: darkblue;
+        }
+        nav {
+            background-color: lightslategray;
+            padding: 5px;
+            text-align: center;
+            border-radius: 40px;
+        }
+        nav > a {
+            padding-right: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            color: greenyellow;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px 10px 10px 10px;
+            border: 2px solid red;
+            height: 150;
+            border-radius: 10px;
+        }
+        article {
+            background-color: black;
+            color: greenyellow;
+            margin: 10px;
+            padding: 2px 10px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: lightslategray;
+            padding: 10px;
+            margin: 0px;
+            border: 2px solid lightcoral;
+            text-align: center;
+            border-radius: 40px;
+        }
+        footer > a {
+            text-decoration: none;
+            color: white;
+        }
+        footer > a:hover {
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Breninh0o</h1>
+        <nav id="menu">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="notícias">
+            <article>
+                    <h2>Noticia sobre a economia Brasileira</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, eos delectus. In, est itaque? Aliquid odio hic, reiciendis vero repudiandae, quaerat molestiae molestias consequuntur perspiciatis corrupti, vel voluptatum. Dolore, eveniet.</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.instagram.com/breno_lopo/" target="_blank">
+            <p>Desenvolvido por Breno Oliveira Lopes</p>
+        </a>
+    </footer>
+</body>
+</html>

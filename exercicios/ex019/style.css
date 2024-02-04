@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to left, #011F26, #03A688);
+    font:2em sans-serif;
+}
+h1 {
+    color: #f5386b;
+}
+
+h1#principal {
+    color: red;
+}
+
+h2 {
+    color: #8c4f5f;
+}
+p {
+    color: #04d1ff;
+}
+.basico {
+    color: black;
+}
