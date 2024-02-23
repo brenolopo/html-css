@@ -1,6 +1,19 @@
 			[FUNÇÕES]
 
 background-image: url('imagens/pattern001.png');
-background-size: 100px;
-background-repeat: no-repeat;
-background-position: center center;
+background-size: 100px; (tamanho do fundo)
+background-repeat: no-repeat; (decidir se repete imagem ou não)
+background-position: center center; (decidir onde inicia o fundo)
+background-attachment: fixed;    (fundo fixo
+
+[shorthand - background]
+
+color > image > position > repeat > size > attachment
+
+"No momento o size só esta funcionando fora do shorthand"
+
+[shorthand - background]
+
+			[POSICIONAMENTO VERTICAL]
+
+para usar propiedades como top, right, bottom, left, todo container deve ter uma posicao relativa e o conteudo uma posição absoluta.

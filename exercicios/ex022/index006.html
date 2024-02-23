@@ -6,17 +6,17 @@
     <title>Fundo006</title>
     <style>
         body {
-            height: 100vh;
-            background-color: black;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
-            background-repeat: no-repeat;
+            height: 100vh;            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black url('imagens/wallpaper002.jpg') center top no-repeat fixed;
             background-size: cover;
-        main {
+        }
+        .conteudo {
             background-color: white;
-            width: 400px;
+            max-width: 500px;
             padding: 10px;
-            margin: auto;
             border: solid red 2px;
             border-radius: 15px;
         }
@@ -24,8 +24,10 @@
 </head>
 <body>
     <main>
-        <h1>Teste de imagem de fundo</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt soluta voluptatibus laborum, placeat rerum eum repellendus maxime iure dicta est officiis vero in, blanditiis porro suscipit labore distinctio inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos impedit dolore ad assumenda autem debitis fugit temporibus labore? Illum nemo accusamus quidem quis similique alias repellat ipsa explicabo delectus deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui sed culpa, assumenda molestias est asperiores iusto repellat error magnam quos tempora, eaque laboriosam rerum alias doloremque nemo cum nulla.</p>
+        <div class="conteudo">
+            <h1>Teste de imagem de fundo</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt soluta voluptatibus laborum, placeat rerum eum repellendus maxime iure dicta est officiis vero in, blanditiis porro suscipit labore distinctio inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos impedit dolore ad assumenda autem debitis fugit temporibus labore? Illum nemo accusamus quidem quis similique alias repellat ipsa explicabo delectus deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui sed culpa, assumenda molestias est asperiores iusto repellat error magnam quos tempora, eaque laboriosam rerum alias doloremque nemo cum nulla.</p>
+        </div>
     </main>
 </body>
 </html>
