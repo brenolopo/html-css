@@ -75,13 +75,13 @@ footer {
     color: white;
     padding: 5px;
     text-align: center;
-    font-size: 1vw;
+    font-size: 2vw;
 }
 
 footer p a {
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: lightblue;
 }
 footer p a:hover {
     text-decoration: underline;
