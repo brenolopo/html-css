@@ -2,6 +2,7 @@ tags {
   table (tabela)
   tr (linha da tabela)
   td (dado da tabela)
+  th (dado da tabela em formato de título)
 }
 propriedades {
   border-collapse: separete; (espçamento das bordas dos dados da tabela)
@@ -14,3 +15,21 @@ table = tabela
   table row = linha da tebela <tr>
     table header = cabeçalho de tabela
       table data = dado de tabela <td>
+
+Anatomias para tabelas grandes
+
+table
+
+  thead
+
+    tr,td,th
+
+  tbody
+
+    tr,td,th
+
+  tfooter
+
+    tr,td,th
+
+table
