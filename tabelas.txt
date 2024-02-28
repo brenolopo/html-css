@@ -1,0 +1,16 @@
+tags {
+  table (tabela)
+  tr (linha da tabela)
+  td (dado da tabela)
+}
+propriedades {
+  border-collapse: separete; (espçamento das bordas dos dados da tabela)
+  vertical-align: top; (para alinhar o item verticalmente)
+}
+
+hierarquia de tabelas (simples)
+
+table = tabela
+  table row = linha da tebela <tr>
+    table header = cabeçalho de tabela
+      table data = dado de tabela <td>
