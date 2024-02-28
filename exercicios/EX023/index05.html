@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perssonalizando colunas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: solid black 1px;
+            padding: 10px;
+        }
+        col:nth-child(odd) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="col-nome">
+            <col class="col-sexo">
+            <col class="col-idade">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Breno</td>
+                <td>Masculino</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Nilda</td>
+                <td>Feminino</td>
+                <td>49</td>
+            </tr>
+            <tr>
+                <td>Gilmar</td>
+                <td>Masculino</td>
+                <td>37</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

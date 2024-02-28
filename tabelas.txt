@@ -4,18 +4,19 @@ tags {
   td (dado da tabela)
   th (dado da tabela em formato de título)
 }
+-----------------------------------------------------------------------------------
 propriedades {
   border-collapse: separete; (espçamento das bordas dos dados da tabela)
   vertical-align: top; (para alinhar o item verticalmente)
 }
-
+-------------------------------------------------------------------------
 hierarquia de tabelas (simples)
 
 table = tabela
   table row = linha da tebela <tr>
     table header = cabeçalho de tabela
       table data = dado de tabela <td>
-
+-----------------------------------------------------------------------------------
 Anatomias para tabelas grandes
 
 table
@@ -33,3 +34,38 @@ table
     tr,td,th
 
 table
+---------------------------------------------------------------------------------------------
+scope
+
+para adicionar scope use scope=col para dizer que as informações relacionadas com o titulo estão abaixo e scope=row para dizer que está ao lado.
+
+colgroup para mais de uma linha de informações.
+rowgroup para mais de uma coluna de informações.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+efeito zebrado
+
+para usar o efeito zebrado use a pseudo class :nth-child(odd) e nth-child(even). odd(impar), even(par).
+------------------------------------------------------------------------------------------------------------
+cabeçalho fixo
+
+  Para deixar o cabeçalho fixo deixe a tabela com uma position relative e o cabeçalho com position stick com o top 0.
+-----------------------------------------------------------------------------------------------------------------------
+mescalagem de celulas 
+
+dentro da tag 'td' desejada use colspan="2" (espanção de 2 colunas) e para espandir linhas use rowspan="2"(espanção de linhas)
+----------------------------------------------------------------------------------------------------------------------------------
+Personalisando colunas
+
+para perssonalizar colunas primeiro defina o numero de colunas no seu site usando a tag:
+
+<colgroup>
+  <col class="grupos">
+  <col class="nomes">
+  <col class="filmes">
+</colgroup>
+
+e por fim declarando uma class pra cada coluna e estilizando elas no arquivos css
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+tabela responsiva 
+
+Para mover a tabela de lado sem mover a página toda, envelope toda a tabela com a tag <div> e no seu documento em css use a propriedade (overflow-x: auto;).
