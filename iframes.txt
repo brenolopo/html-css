@@ -1,0 +1,10 @@
+ABRINDO LINK NO SEU iFRAME
+
+para abrir alguma pagina do seu site ou sites externos em um iframe basta colocar um name no seu iframe e na sua tag "a" coloque um target para o name do seu iframe.
+-------------------------------------------------------------
+CONTEÚDO NO IFRAME POR CÓDIGO
+
+para colocar conteúdo no iframe por codigo use o parametro srcdoc="", e coloque o conteudo da mesma forma em um documento html.
+
+obs: Um cuidado muito importante relacionado a isso é quando for ultilizar caminhos dentro do srcdoc use com aspas simples ''.
+--------------------------------------------------------------
