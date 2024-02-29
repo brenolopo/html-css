@@ -8,3 +8,6 @@ para colocar conteúdo no iframe por codigo use o parametro srcdoc="", e coloque
 
 obs: Um cuidado muito importante relacionado a isso é quando for ultilizar caminhos dentro do srcdoc use com aspas simples ''.
 --------------------------------------------------------------
+SEGURANÇA DETRO DO IFRAME
+
+Para bloquear coisas maliciosas detro do seu iframe como pegar informaçoes do seus visitantes voce pode usar o parametro sandbox="sandbox". dentro do seu iframe.E para deixar um pouco mais seguro use outro parametro referrerpolicy="no-referer".
