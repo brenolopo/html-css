@@ -1,9 +1,10 @@
+tags
+
 <pre> tudo que estiver dentro sera contado
 
-
-
-
+-------------------------------------------------------
 parametros em css
 
 line-height:; para da mais espaçamentos as linhas.
 font-variant: small-caps; para deixar as letras maiuculas mas com tamanhos normais.
+-----------------------------------------------------------------------------------
