@@ -5,6 +5,29 @@ tags
 -------------------------------------------------------
 parametros em css
 
-line-height:; para da mais espaçamentos as linhas.
+line-height: 2em; para da mais espaçamentos as linhas.
+
 font-variant: small-caps; para deixar as letras maiuculas mas com tamanhos normais.
+
+top, right, bottom, left: para usar esses paramentros é nescessário se ultilzar o parametro "position:relative".
+
+
 -----------------------------------------------------------------------------------
+
+importantes
+
+para criar a borda dentro da caixa ao invez de ficar por fora use: box-sizing: border-box;
+
+para centralizar uma div use: 
+position:relative;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+
+para esconder uma barra lateral use:
+
+::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+}
+

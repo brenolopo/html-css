@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando-pseudoclass</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        .my-link{
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2em;
+        }
+
+        /*Quando o link não for visitado*/
+        .my-link:link {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*Quando o link for visitado*/
+        .my-link:visited {
+            color: red;
+        }
+
+        /*Quando o cursor passa por cima do link*/
+        .my-link:hover {
+            color: blue;
+        }
+
+        /*Quando o link for presionado*/
+        .my-link:active{
+            color: white;
+        }
+
+        /*Quando der foco no link*/
+        .my-link:focus{
+            color: orange;
+        }
+
+        .games {
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+
+            margin-top: 25px;
+        }
+        .games li {
+            color: green;
+
+            list-style: none;
+            border-bottom: 1px solid black;
+
+            padding: 10px;
+            margin: 0px;
+        }
+
+        /*Para personalizar o primeiro item de uma lista*/
+        .games li:first-child {
+            color: red;
+        }
+
+        /*Para personalizar o ultimo item de uma lista*/
+        .games li:last-child {
+            color: blueviolet;
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://www.youtube.com/@Cursoemvideo" class="my-link" target="_blank">My Link</a>
+
+    <ul class="games">
+        <li>Dragon ball budokai takaichin 3</li>
+        <li>bully</li>
+        <li>need for speeed Underground</li>
+        <li>god of war 2</li>
+    </ul>
+
+</body>
+</html>
